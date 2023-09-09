@@ -2,7 +2,7 @@
     $username = $_POST['username'];
     $password = $_POST['password'];
     $password1 = $_POST['password1'];
-    $conn = new mysqli('localhost','root','','test');
+    $conn = new mysqli('sql308.infinityfree.com','if0_34994857','BeIYVzZ0NCdM','if0_34994857_test');
     if($conn->connect_error){
         die('Connection Failed : '.$conn->connect_error);
     }else{
